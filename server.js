@@ -50,7 +50,6 @@ http.createServer((req, res)=>{
               res.write('Error uploading file');
             } 
             else {
-                console.log(req.file);
                 res.write('File uploaded successfully');
             }
             res.end(); 
