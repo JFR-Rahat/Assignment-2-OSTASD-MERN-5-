@@ -38,7 +38,6 @@ http.createServer((req, res)=>{
             },
             filename: (req, file, cb) => {
               cb(null, file.originalname);
-              console.log(file.originalname);
             },
           });
       
